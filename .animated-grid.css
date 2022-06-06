@@ -26,12 +26,14 @@
     }
 }
 
-.card {
-    background-color: rgb (36,243,147);
-    animation: cardEnterence 700ms ease-out;
-    .animated-fill-mode:backwards;
+
+
 }
 
+.card {
+    background-color: rgb(36,243,147);
+    animation: cardEnterence 700ms ease-out;
+    animation-fill-mode:backwards;
 }
 
 .card:nth-child(1){
